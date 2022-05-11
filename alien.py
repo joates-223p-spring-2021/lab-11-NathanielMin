@@ -6,10 +6,10 @@ from pygame.sprite import Sprite
 
 
 class Alien(Sprite):
-    """A class to represent a single alien in the fleet."""
+    """class to represent a single alien in the fleet."""
 
     def __init__(self, ai_game):
-        """Initialize the alien and set its starting position."""
+        """Loads the alien and set its starting position."""
         super().__init__()
         self.screen = ai_game.screen
         self.settings = ai_game.settings

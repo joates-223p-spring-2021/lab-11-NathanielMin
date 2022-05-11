@@ -9,10 +9,10 @@ from ship import Ship
 
 
 class Scoreboard:
-    """A class to report scoring information."""
+    """class to report scoring information."""
 
     def __init__(self, ai_game):
-        """Initialize scorekeeping attributes."""
+        """Loads scorekeeping attributes."""
         self.ai_game = ai_game
         self.screen = ai_game.screen
         self.screen_rect = self.screen.get_rect()
